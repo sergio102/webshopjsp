@@ -1,0 +1,26 @@
+@CHARSET "ISO-8859-1";
+
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
+div.box {
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+div.box .box_naam {
+	width: 100%;
+	background-color: blue;
+	color: yellow;
+	line-height: 2em;
+	background-color: #00ffff;
+	color: black;
+	font-weight: bold;
+}
